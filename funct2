@@ -1,0 +1,20 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+
+fun main(){
+    var i : Int
+    var j : Int
+    //j = prod(2, (sum(5,7)))
+    j = prod(5,7,1,2)
+    print(j)
+    
+}
+fun prod(x: Int, y: Int, w: Int, z: Int): Int{
+    
+    return x*y*sum (w,z)
+}
+fun sum(a: Int, b: Int): Int{
+    return a+b
+}
