@@ -1,0 +1,15 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+fun main() {
+    multiple(20,100,6)
+}
+fun multiple (first: Int, last: Int, multiple : Int){
+    for (i in first..last){
+        if(i%multiple == 0){
+            println("$i is multiple of $multiple")
+        }
+    }
+}
+
