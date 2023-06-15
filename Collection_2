@@ -1,0 +1,22 @@
+fun main(){
+    // mutable collection
+    // add(index, value)
+    // removeAt(index)
+    // remove(value)
+ val myListMutable = mutableListOf(12, 13, 157, 5454)
+ print(myListMutable)
+ myListMutable.add(4, 79797)
+ print(myListMutable)
+ myListMutable.removeAt(2)
+ print(myListMutable)
+ myListMutable.remove(12)
+ print(myListMutable)
+ print("\n")
+ val List1 = mutableListOf(12,12,12,13,14)
+ List1.remove(12)
+ print(List1)
+ print("\n")
+ val List2 = mutableListOf(12,14,12,13,14)
+ List2.remove(12)
+ print(List2)
+}
